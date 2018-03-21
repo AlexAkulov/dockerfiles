@@ -16,6 +16,7 @@ RUN apt-get update && \
         virtualenv \
         xz-utils \
         zip \
+        git \
     && \
     apt-get clean && \
     rm --recursive /var/lib/apt/lists/*
